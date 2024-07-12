@@ -24,10 +24,11 @@ and http response in a text file called `q1.txt`
 
 # Q2
 
-Instead of using a session, we can alternatively store a JWT in a cookie.
+We can store a JWT in a cookie after a successful login so the login information
+is shared between all pages on the same site.
+
 Modify https://github.com/env3d/jwt-lessons/blob/main/02-hmac-token.sh so that
-it stores the generated JWT in a cookie.  Male sure that both the cookie and the
-JWT both have an expiry time of 1 hour.  Call this `q2.sh`
+it stores the generated JWT in a cookie.  Call this `q2.sh`
 
 # Q3
 
